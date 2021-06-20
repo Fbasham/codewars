@@ -1,0 +1,1 @@
+const anagrams=(s,a)=>a.filter(e=>[...e].sort().join('')===[...s].sort().join(''))
