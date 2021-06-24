@@ -1,0 +1,1 @@
+const cakes=(r,a)=>Math.min(...Object.keys(r).map(k=>~~(a[k]/r[k])))
