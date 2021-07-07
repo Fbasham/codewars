@@ -1,0 +1,1 @@
+const solution=(s,a)=>s.split('\n').map(e=>e.split(new RegExp(a.join('|\\')))).map(e=>e[0].trim()).join('\n')
