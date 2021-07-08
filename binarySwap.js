@@ -1,0 +1,1 @@
+const binarySwap=a=>a==0 ? 1 : a==1 ? 0 : typeof(a)=='function' ? binarySwap(a()) : a.map(e=>binarySwap(e))
