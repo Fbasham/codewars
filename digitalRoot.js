@@ -1,0 +1,1 @@
+const digital_root=n=>n<10 ? n : digital_root([...n+''].reduce((a,c)=>a+ +c,0))
