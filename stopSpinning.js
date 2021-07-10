@@ -1,0 +1,1 @@
+const spinWords=s=>s.replace(/\w{5,}/g,e=>[...e].reverse().join``)
