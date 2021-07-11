@@ -1,0 +1,1 @@
+const sc=(s,a)=>a.filter(e=>RegExp('^'+s.replace(/~/g,'.'),'gi').test(e)).join(',')
