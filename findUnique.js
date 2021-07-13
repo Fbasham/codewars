@@ -1,0 +1,1 @@
+const findUniq=a=>a.find(e=>a.indexOf(e)===a.lastIndexOf(e))
